@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "$(<main.py)"
-      - run: cat main.py
+      - name: Hello world using echo
+        run: echo "$(<hello.txt)"
+      - name: Hello world using cat
+        run: cat hello.txt
