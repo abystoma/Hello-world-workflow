@@ -9,4 +9,4 @@ jobs:
          repository: abystoma/test
          ref: CombinedPhrase
       - name: Show me the answer
-        run: cat answer.txt
+        run: cat from.txt
